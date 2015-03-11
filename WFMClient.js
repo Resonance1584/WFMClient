@@ -4,7 +4,7 @@ var https = require('https');
 
 var templates = require('./templates.js');
 
-module.exports = function (apiKey, accountKey) {
+module.exports = function (host, apiKey, accountKey) {
 
   /**
    * Performs an https request on the WFM API
@@ -16,7 +16,7 @@ module.exports = function (apiKey, accountKey) {
   function makeApiRequest(body, path, method, done) {
 
     var options = {
-      hostname: process.env.WFM_HOSTNAME,
+      hostname: host,
       path: path + '?apiKey='+apiKey+'&accountKey='+accountKey,
       method: method
     };

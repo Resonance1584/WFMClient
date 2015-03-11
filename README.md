@@ -8,10 +8,12 @@ http://www.workflowmax.com/api/overview
 
 ```js
 //Create a new Client
+var host       = 'api.workflowmax.com'
 var apiKey     = 'your-api-key';
 var accountKey = 'your-account-key';
 var WFMClient = require('wfm-client');
 var wfm = WFMClient(
+  host,
   apiKey,
   accountKey
 );
