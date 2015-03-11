@@ -1,0 +1,7 @@
+<Task>
+  <Job>{{jobId}}</Job>
+  <TaskID>{{taskId}}</TaskID>
+  <Label>{{description}}</Label>
+  <Description>{{description}}</Description>
+  <EstimatedMinutes>{{estimatedMinutes}}</EstimatedMinutes>
+</Task>

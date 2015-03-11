@@ -1,0 +1,24 @@
+{
+  "strict": true,
+  "laxcomma": true,
+  "eqeqeq": true,
+  "quotmark": "single",
+  "forin": true,
+  "latedef": true,
+  "undef": true,
+  "freeze": true,
+  "browser": true,
+  "devel": true,
+  "globals": {
+    "require": false,
+    "__dirname": false,
+    "describe": false,
+    "it": false,
+    "beforeEach": false,
+    "before": false,
+    "after": false
+  },
+  "node": true,
+  "indent": 2,
+  "esnext": true
+}

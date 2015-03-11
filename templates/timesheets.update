@@ -1,0 +1,9 @@
+<Timesheet>
+  <ID>{{id}}</ID>
+  <Job>{{jobId}}</Job>
+  <Task>{{taskId}}</Task>
+  <Staff>{{staffId}}</Staff>
+  <Date>{{date}}</Date>
+  <Minutes>{{minutes}}</Minutes>
+  <Note>{{note}}</Note>
+</Timesheet>
