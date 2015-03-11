@@ -130,6 +130,14 @@ module.exports = function (host, apiKey, accountKey) {
       });
 
       makeApiRequest(body, '/job.api/task', 'POST', done);
+    },
+
+    /**
+     * Returns a list of current jobs
+     * @param  {Function} done Callback that will be called with (err, responseData)
+     */
+    getCurrentJobs: function (done) {
+      makeApiRequest(undefined, '/job.api/current', 'GET', done);
     }
   };
 };
