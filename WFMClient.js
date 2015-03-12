@@ -138,6 +138,14 @@ module.exports = function (host, apiKey, accountKey) {
      */
     getCurrentJobs: function (done) {
       makeApiRequest(undefined, '/job.api/current', 'GET', done);
+    },
+
+    /**
+     * Get Staff
+     * * @param  {Function} done Callback that will be called with (err, responseData)
+     */
+    getStaff: function (done) {
+      makeApiRequest(undefined, '/staff.api/list', 'GET', done)
     }
   };
 };

@@ -51,6 +51,12 @@ See http://www.workflowmax.com/api/overview
 ## createTask
 `wfm.createTask(jobId, taskId, description, estimatedMinutes, done)`
 
+## getCurrentJobs
+`wfm.getCurrentJobs(done)`
+
+## getStaff
+`wfm.getStaff(done)`
+
 # Development
 
 Library is currently in minimal state for creating tasks and timesheets.
